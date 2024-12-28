@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+
+.detailBox {
+    font-family: 'Crimson Pro', serif;
+    border: 1px solid salmon;
+    padding: 5px 5px 5px 10px;
+    font-size: 20px;
+    margin: 15px 0px 15px 0px;
+}
+
+.detailBox > ul {
+    margin: 5px;
+}
+
+ul > li {
+    margin: 10px 0px 10px 0px;
+}
+
+.detailBox > ul > li {
+    padding: 5px 0px 5px 10px;
+    margin: 10px;
+    list-style-type: upper-roman;
+    /* text-decoration-line: underline; */
+}
+
+.redirectUserToProj {
+    color: var(--teal);
+    font-size: 20px;
+}
+
+.redirectUserToProj > a {
+    text-decoration: none;
+    color: var(--info);
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.redirectUserToProj > a:hover {
+    text-decoration-color: #b85233;
+    text-decoration-line: underline;
+    color: #D2691E;
+    font-size: 20px;
+}
+
+h5:hover {
+    color: #D2691E;
+}
+
+h4:hover {
+    color: #D2691E;
+}
+
+.projImg {
+    border: 2px solid #D2691E;
+    margin: 5px;
+    float: right;
+    width: 451px;
+    height: 451px;
+    display: block;
+}
+
+.projImg:hover {
+    animation: imgHover 1s  0.2s forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes imgHover {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+/* projNav */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.projNav {
+    padding: 5px;
+    margin: 5px;
+	background-color: var(--light);
+	text-align: center;
+	z-index: 5;
+}
+
+.projNav > ul > li {
+    display: inline;
+}
+
+.projNav > ul > li::after {
+    content: "|";
+}
+
+.projNav > ul > li:last-child::after {
+    content: "";
+}
+.projLink {
+    text-decoration: none;
+    color: var(--info);
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.projLink:hover {
+    text-decoration-color: #b85233;
+    text-decoration-line: underline;
+    color: #D2691E;
+    font-size: normal;
+    /* font-size: 20px; */
+}
+
+.projLink:active {
+    color: var(--success);
+    font-size: normal;
+    /* font-size: 20px; */
+}
+
+.projLink:visited {
+    color: rgba(10, 145, 168, 1);
+    color: rgba(10, 145, 0, 0);
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 761px) {
+    .projNav > ul > li {
+        display: block;
+    }
+
+    .projNav > ul > li::after {
+        content: "";
+    }
+	
+    .projImg {
+        float: top;
+        width: 350px;
+        height: 301px;
+        margin-right: 5px;
+    }
+}

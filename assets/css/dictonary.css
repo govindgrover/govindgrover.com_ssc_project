@@ -1,0 +1,27 @@
+.diffWord {
+    color: crimson;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: coral;
+}
+
+.diffWord:hover {
+    color: chocolate;
+}
+
+.diffWord:visited {
+    color: cornflowerblue;
+}
+
+.line {
+    display: block;
+}
+
+.word {
+    color: crimson;
+    font-weight: bold;
+}
+
+.word::after {
+    content: " :-  "
+}

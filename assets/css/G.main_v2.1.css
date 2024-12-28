@@ -1,0 +1,581 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~
+	By: Govind Grover
+		Class - X
+~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+/*
+==============================================================================================
+============================================= ROOT ===========================================
+==============================================================================================
+*/
+:root {
+	--g-btn: #4CAF50; /* Green */
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+/*
+==============================================================================================
+============================================= IMPORT =========================================
+==============================================================================================
+*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant|IBM+Plex+Mono|Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+
+@font-face {
+  font-family: G-navfont;
+  src: url(../fonts/consola.ttf);
+}
+
+/*
+==============================================================================================
+========================================= Google fonts =======================================
+==============================================================================================
+*/
+.special_lite{
+	font-family: 'Special Elite', cursive;
+}
+
+.cormorant {
+	font-family: 'Cormorant', serif;
+}
+
+.ibm_plex_mono {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+/*
+==============================================================================================
+======================================= g-container ==========================================
+==============================================================================================
+*/
+
+.g-container {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	word-break: normal;
+	box-shadow: 6px 5px 20px 4px rgba(4,216,78,0.444);
+}
+
+.g-container {
+	margin-top: 3.45%;
+}
+
+.g-container:empty {
+	display: none;
+}
+
+/* [ g-container media ] */
+@media (min-width:0px) {
+	.g-container {
+		max-width:540px;
+	}
+}
+
+
+
+@media (min-width:576px) {
+	.g-container {
+		max-width:540px;
+	}
+}
+
+@media (min-width: 414px) {
+	.g-container {
+		max-width: 350px;
+		padding: 0px 5px 0px 5px;
+		font-size: 18px;
+		margin-top: 5%;
+	}
+}
+
+@media (min-width:768px) {
+	.g-container {
+		max-width:720px;
+	}
+}
+
+@media (min-width:758px) {
+	.g-container {
+		max-width:720px;
+	}
+}
+
+@media (min-width:992px) {
+	.g-container {
+		max-width:960px;
+	}
+}
+
+@media (min-width:1200px) {
+	.g-container {
+		max-width:1140px;
+	}
+}
+
+.g-container-fluid {
+	width:100%;
+	padding: 15px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 80px;
+	/* background-color: pink; */
+}
+
+.g-container-fluid:empty {
+	display: none;
+}
+
+/*
+==============================================================================================
+============================================= MAIN ===========================================
+==============================================================================================
+*/
+::selection {
+	color: var(--red);
+	background-color: var(--light);
+}
+
+@media only screen and (max-width: 761px) {
+	p {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	p {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	label {
+		font-size: 12px;
+	}
+
+	input {
+		margin: 2px;
+		padding: 2px;
+	}
+}
+
+hr {
+	/* background-color: var(--info); */
+	border-radius: 10%;
+	height: 0.001px;
+	bottom: 10px;
+	position: relative;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+/*
+==============================================================================================
+============================================ margin ==========================================
+==============================================================================================
+*/
+
+/* FOR top */
+.mt-5 {
+	margin-top: 5px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-15 {
+	margin-top: 15px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-25 {
+	margin-top: 25px;
+}
+
+/* FOR bottom */
+.mb-5 {
+	margin-bottom: 5px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mb-15 {
+	margin-bottom: 15px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mb-25 {
+	margin-bottom: 25px;
+}
+
+/* FOR right */
+.mr-5 {
+	margin-right: 5px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.mr-15 {
+	margin-right: 15px;
+}
+
+.mr-20 {
+	margin-right: 20px;
+}
+
+.mr-25 {
+	margin-right: 25px;
+}
+
+/* FOR left */
+.ml-5 {
+	margin-left: 5px;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+.ml-15 {
+	margin-left: 15px;
+}
+
+.ml-20 {
+	margin-left: 20px;
+}
+
+.ml-25 {
+	margin-left: 25px;
+}
+
+/* FOR auto */
+.mt-auto {
+	margin-top: auto;
+}
+
+.mb-auto {
+	margin-bottom: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.m-auto {
+	margin: auto;
+}
+
+/*
+==============================================================================================
+=========================================== display ==========================================
+==============================================================================================
+*/
+.d-inline-block {
+	display: inline-block;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-none {
+	display: none;
+}
+
+/*
+==============================================================================================
+======================================== title tooltip =======================================
+==============================================================================================
+*/
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after {
+    content: attr(title);
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    background-color: saddlebrown; 
+    color: var(--light);
+    min-width: 265px;
+ 	bottom: 26px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    z-index: 2;
+    letter-spacing: 1px;
+	font-size: 20px;
+	margin: auto;
+}
+
+
+/*
+==============================================================================================
+============================================= time ===========================================
+==============================================================================================
+*/
+.time {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: green;
+	color: white;
+	margin: 0px;
+	padding: 5px;
+	position: relative;
+	height: 50px;
+}
+
+.time > button:hover {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.nav {
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	position: sticky;
+	z-index: 0;
+	opacity: 0.9;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*
+==============================================================================================
+========================================= nav | g-nav ========================================
+==============================================================================================
+*/
+.nav {
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	position: sticky;
+	z-index: 0;
+	opacity: 0.9;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.g-nav-btn {
+	background-color: #4CAF50; /* Green */
+	font-family: G-navfont;
+	display: inline-block;
+	text-decoration:none;
+	white-space: nowrap;
+	border-radius: 5px;
+	text-align: center;
+	padding:8px 12px;
+	margin: 0px 10px 0px 10px;
+	cursor: pointer;
+	overflow:hidden;
+	color: #ffffff;
+	border: none;
+	z-index: 3;
+	transition-duration: 0.3s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.g-nav-btn:hover {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	text-decoration: underline;
+	background-color: brown;
+	border-radius: 6.8px;
+	color: white;
+}
+
+.g-nav-btn:focus {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	text-decoration: underline;
+	background-color: brown;
+	border-radius: 6.8px;
+	color: white;
+}
+
+.g-nav-btn:active {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	text-decoration: underline;
+	background-color: brown;
+	border-radius: 6.8px;
+	color: white;
+	opacity: 0.5;
+}
+
+.g-nav-ul > li {
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	/* background-color: black; */
+	
+}
+
+.nav-brand {
+	position: absolute;
+	float: right;
+	top: 10.20%;
+	height: justify;
+	width: 30px;
+}
+
+/*
+==============================================================================================
+============================================ g-btn ===========================================
+==============================================================================================
+*/
+.g-btn {
+	/* background-color: var(--g-btn); */
+	font-family: 'Inconsolata', monospace;
+	display: inline-block;
+	text-decoration:none;
+	white-space: nowrap;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-align: center;
+	margin-left: 10px;
+	padding:8px 12px;
+	cursor: pointer;
+	overflow:hidden;
+	color: #ffffff;
+	border: none;
+	z-index: 1;
+	transition-duration: 0.3s;
+}
+
+.g-btn:hover {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	text-decoration: underline;
+	background-color: rgba(165,42,42,0.759);
+	border-radius: 6.8px;
+	color: white;
+}
+
+.g-btn:focus {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	text-decoration: underline;
+	background-color: rgba(165,42,42,0.8.985);
+	border-radius: 6.8px;
+	color: white;
+}
+
+.g-btn:active {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	text-decoration: underline;
+	background-color: rgba(165,42,42,0.7);
+	border-radius: 6.8px;
+	color: white;
+	opacity: 0.5;
+}
+
+@media only screen and (max-width: 761px) {
+	.g-btn {
+		/* background-color: var(--g-btn); */
+		font-family: 'Inconsolata', monospace;
+		font-size: 11px;
+		display: inline-block;
+		text-decoration:none;
+		white-space: nowrap;
+		border-radius: 5px;
+		margin-right: 9px;
+		margin-bottom: 9px;
+		text-align: center;
+		margin-left: 9px;
+		padding:7px 11px;
+		cursor: pointer;
+		overflow:hidden;
+		color: #ffffff;
+		border: none;
+		z-index: 1;
+		transition-duration: 0.3s;
+	}
+
+	.g-btn:hover {
+		box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		text-decoration: underline;
+		/* background-color: brown; */
+		border-radius: 6.8px;
+		/* color: white; */
+	}
+
+	.g-btn:focus {
+		box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		text-decoration: underline;
+		/* background-color: brown; */
+		border-radius: 6.8px;
+		/* color: white; */
+	}
+
+	.g-btn:active {
+		box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		text-decoration: underline;
+		/* background-color: brown; */
+		border-radius: 6.8px;
+		color: white;
+		/* opacity: 0.5; */
+	}
+}
+
+/*
+https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+*/

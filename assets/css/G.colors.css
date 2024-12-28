@@ -1,0 +1,618 @@
+/*
+	This stylesheet (css) represents few color name(s) by Govind.
+	To use these color names you have to use class [ .color-'color name' || .bgColor-'color name' ] in your project(s).
+*/
+
+/* [ for text-color ] */
+.color-white {
+	color: white;
+}
+
+.color-black {
+	color: black;
+}
+
+.color-red {
+	color: red;
+}
+
+.color-green {
+	color: green;
+}
+
+.color-blue {
+	color: blue;
+}
+
+.color-orange {
+	color: orange;
+}
+
+.color-purple {
+	color: purple;
+}
+
+.color-yellow {
+	color: yellow;
+}
+
+.color-olive {
+	color: olive;
+}
+
+.color-lightblue {
+	color: lightblue;
+}
+
+.color-cyan {
+	color: cyan;
+}
+
+.color-brown {
+	color: brown;
+}
+
+.color-gray {
+	color: gray;
+}
+
+.color-silver {
+	color: silver;
+}
+
+.color-golden {
+	color: #FFD700;
+}
+
+.color-chocolate {
+	color: #D2691E;
+}
+
+.color-copper {
+	color: #b85233;
+}
+
+.color-blue {
+	color: var(--blue);
+}
+
+.color-indigo {
+	color: var(--indigo);
+}
+
+.color-purple {
+	color: var(--purple);
+}
+
+.color-pink {
+	color: var(--pink);
+}
+
+.color-red {
+	color: var(--red);
+}
+
+.color-orange {
+	color: var(--orange);
+}
+
+.color-yellow {
+	color: var(--yellow);
+}
+
+.color-green {
+	color: var(--green);
+}
+
+.color-teal {
+	color: var(--teal);
+}
+
+.color-cyan {
+	color: var(--cyan);
+}
+
+.color-white {
+	color: var(--white);
+}
+
+.color-gray {
+	color: var(--gray);
+}
+
+.color-gray_dark {
+	color: var(--gray-dark);
+}
+
+.color-primary {
+	color: var(--primary);
+}
+
+.color-secondary {
+	color: var(--secondary);
+}
+
+.color-success {
+	color: var(--success);
+}
+
+.color-info {
+	color: var(--info);
+}
+
+.color-warning {
+	color: var(--warning);
+}
+
+.color-danger {
+	color: var(--danger);
+}
+
+.color-light {
+	color: var(--light);
+}
+
+.color-dark {
+	color: var(--dark);
+}
+
+/* [ for background-color ] */
+.bgColor-white {
+	background-color: white;
+}
+
+.bgColor-black {
+	background-color: black;
+}
+
+.bgColor-red {
+	background-color: red;
+}
+
+.bgColor-green {
+	background-color: green;
+}
+
+.bgColor-blue {
+	background-color: blue;
+}
+
+.bgColor-orange {
+	background-color: orange;
+}
+
+.bgColor-purple {
+	background-color: purple;
+}
+
+.bgColor-yellow {
+	background-color: yellow;
+}
+
+.bgColor-olive {
+	background-color: olive;
+}
+
+.bgColor-lightblue {
+	background-color: lightblue;
+}
+
+.bgColor-cyan {
+	background-color: cyan;
+}
+
+.bgColor-brown {
+	background-color: brown;
+}
+
+.bgColor-gray {
+	background-color: gray;
+}
+
+.bgColor-silver {
+	background-color: silver;
+}
+
+.bgColor-golden {
+	background-color: #FFD700;
+}
+
+.bgColor-chocolate {
+	background-color: #D2691E;
+}
+
+.bgColor-copper {
+	background-color: #b85233;
+}
+
+.bgColor-blue {
+	background-color: var(--blue);
+}
+
+.bgColor-indigo {
+	background-color: var(--indigo);
+}
+
+.bgColor-purple {
+	background-color: var(--purple);
+}
+
+.bgColor-pink {
+	background-color: var(--pink);
+}
+
+.bgColor-red {
+	background-color: var(--red);
+}
+
+.bgColor-orange {
+	background-color: var(--orange);
+}
+
+.bgColor-yellow {
+	background-color: var(--yellow);
+}
+
+.bgColor-green {
+	background-color: var(--green);
+}
+
+.bgColor-teal {
+	background-color: var(--teal);
+}
+
+.bgColor-cyan {
+	background-color: var(--cyan);
+}
+
+.bgColor-white {
+	background-color: var(--white);
+}
+
+.bgColor-gray {
+	background-color: var(--gray);
+}
+
+.bgColor-gray_dark {
+	background-color: var(--gray-dark);
+}
+
+.bgColor-primary {
+	background-color: var(--primary);
+}
+
+.bgColor-secondary {
+	background-color: var(--secondary);
+}
+
+.bgColor-success {
+	background-color: var(--success);
+}
+
+.bgColor-info {
+	background-color: var(--info);
+}
+
+.bgColor-warning {
+	background-color: var(--warning);
+}
+
+.bgColor-danger {
+	background-color: var(--danger);
+}
+
+.bgColor-light {
+	background-color: var(--light);
+}
+
+.bgColor-dark {
+	background-color: var(--dark);
+}
+
+
+
+/* [ for text-color { :HOVER } ] */
+.color-white-hover:hover {
+	color: white;
+}
+
+.color-black-hover:hover {
+	color: black;
+}
+
+.color-red-hover:hover {
+	color: red;
+}
+
+.color-green-hover:hover {
+	color: green;
+}
+
+.color-blue-hover:hover {
+	color: blue;
+}
+
+.color-orange-hover:hover {
+	color: orange;
+}
+
+.color-purple-hover:hover {
+	color: purple;
+}
+
+.color-yellow-hover:hover {
+	color: yellow;
+}
+
+.color-olive-hover:hover {
+	color: olive;
+}
+
+.color-lightblue-hover:hover {
+	color: lightblue;
+}
+
+.color-cyan-hover:hover {
+	color: cyan;
+}
+
+.color-brown-hover:hover {
+	color: brown;
+}
+
+.color-gray-hover:hover {
+	color: gray;
+}
+
+.color-silver-hover:hover {
+	color: silver;
+}
+
+.color-golden-hover:hover {
+	color: #FFD700;
+}
+
+.color-chocolate-hover:hover {
+	color: #D2691E;
+}
+
+.color-copper-hover:hover {
+	color: #b85233;
+}
+
+.color-blue-hover:hover {
+	color: var(--blue);
+}
+
+.color-indigo-hover:hover {
+	color: var(--indigo);
+}
+
+.color-purple-hover:hover {
+	color: var(--purple);
+}
+
+.color-pink-hover:hover {
+	color: var(--pink);
+}
+
+.color-red-hover:hover {
+	color: var(--red);
+}
+
+.color-orange-hover:hover {
+	color: var(--orange);
+}
+
+.color-yellow-hover:hover {
+	color: var(--yellow);
+}
+
+.color-green-hover:hover {
+	color: var(--green);
+}
+
+.color-teal-hover:hover {
+	color: var(--teal);
+}
+
+.color-cyan-hover:hover {
+	color: var(--cyan);
+}
+
+.color-white-hover:hover {
+	color: var(--white);
+}
+
+.color-gray-hover:hover {
+	color: var(--gray);
+}
+
+.color-gray_dark-hover:hover {
+	color: var(--gray-dark);
+}
+
+.color-primary-hover:hover {
+	color: var(--primary);
+}
+
+.color-secondary-hover:hover {
+	color: var(--secondary);
+}
+
+.color-success-hover:hover {
+	color: var(--success);
+}
+
+.color-info-hover:hover {
+	color: var(--info);
+}
+
+.color-warning-hover:hover {
+	color: var(--warning);
+}
+
+.color-danger-hover:hover {
+	color: var(--danger);
+}
+
+.color-light-hover:hover {
+	color: var(--light);
+}
+
+.color-dark-hover:hover {
+	color: var(--dark);
+}
+
+/* [ for background-color { :HOVER } ] */
+.bgColor-white-hover:hover {
+	background-color: white;
+}
+
+.bgColor-black-hover:hover {
+	background-color: black;
+}
+
+.bgColor-red-hover:hover {
+	background-color: red;
+}
+
+.bgColor-green-hover:hover {
+	background-color: green;
+}
+
+.bgColor-blue-hover:hover {
+	background-color: blue;
+}
+
+.bgColor-orange-hover:hover {
+	background-color: orange;
+}
+
+.bgColor-purple-hover:hover {
+	background-color: purple;
+}
+
+.bgColor-yellow-hover:hover {
+	background-color: yellow;
+}
+
+.bgColor-olive-hover:hover {
+	background-color: olive;
+}
+
+.bgColor-lightblue-hover:hover {
+	background-color: lightblue;
+}
+
+.bgColor-cyan-hover:hover {
+	background-color: cyan;
+}
+
+.bgColor-brown-hover:hover {
+	background-color: brown;
+}
+
+.bgColor-gray-hover:hover {
+	background-color: gray;
+}
+
+.bgColor-silver-hover:hover {
+	background-color: silver;
+}
+
+.bgColor-golden-hover:hover {
+	background-color: #FFD700;
+}
+
+.bgColor-chocolate-hover:hover {
+	background-color: #D2691E;
+}
+
+.bgColor-copper-hover:hover {
+	background-color: #b85233;
+}
+
+.bgColor-blue-hover:hover {
+	background-color: var(--blue);
+}
+
+.bgColor-indigo-hover:hover {
+	background-color: var(--indigo);
+}
+
+.bgColor-purple-hover:hover {
+	background-color: var(--purple);
+}
+
+.bgColor-pink-hover:hover {
+	background-color: var(--pink);
+}
+
+.bgColor-red-hover:hover {
+	background-color: var(--red);
+}
+
+.bgColor-orange-hover:hover {
+	background-color: var(--orange);
+}
+
+.bgColor-yellow-hover:hover {
+	background-color: var(--yellow);
+}
+
+.bgColor-green-hover:hover {
+	background-color: var(--green);
+}
+
+.bgColor-teal-hover:hover {
+	background-color: var(--teal);
+}
+
+.bgColor-cyan-hover:hover {
+	background-color: var(--cyan);
+}
+
+.bgColor-white-hover:hover {
+	background-color: var(--white);
+}
+
+.bgColor-gray-hover:hover {
+	background-color: var(--gray);
+}
+
+.bgColor-gray_dark-hover:hover {
+	background-color: var(--gray-dark);
+}
+
+.bgColor-primary-hover:hover {
+	background-color: var(--primary);
+}
+
+.bgColor-secondary-hover:hover {
+	background-color: var(--secondary);
+}
+
+.bgColor-success-hover:hover {
+	background-color: var(--success);
+}
+
+.bgColor-info-hover:hover {
+	background-color: var(--info);
+}
+
+.bgColor-warning-hover:hover {
+	background-color: var(--warning);
+}
+
+.bgColor-danger-hover:hover {
+	background-color: var(--danger);
+}
+
+.bgColor-light-hover:hover {
+	background-color: var(--light);
+}
+
+.bgColor-dark-hover:hover {
+	background-color: var(--dark);
+}

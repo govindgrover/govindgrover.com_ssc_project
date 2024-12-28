@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- title -->
+		<title>Projects</title>
+		<link rel="icon" href="#">
+
+		<!-- meta tags -->
+		<meta charset="utf-8" />
+		<meta charset="ASCII" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="description" content="" />
+		<meta name="author" content="Govind Grover" />
+
+		<!-- stylesheet(s) -->
+		<link rel="stylesheet" type="text/css" href="assets/css/G.main_v2.1.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/G.colors.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/G.dropDown.css" />
+
+		<link rel="stylesheet" type="text/css" href="assets/css/modal.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/dictonary.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/G.project_SSc.css" />
+
+		<!-- [ font awesome stylesheet ]  -->
+		<link rel="stylesheet" type="text/css" href="assets/font_awesome/css/font-awesome.min.css">
+
+		<!-- style -->
+		<style>
+			.collapsible {
+			background-color: #777;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			}
+
+			.active, .collapsible:hover {
+			background-color: #555;
+			}
+
+			.content {
+			padding: 0 18px;
+			display: none;
+			overflow: hidden;
+			background-color: #f1f1f1;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Live Time -->
+		<div class="time">
+			<button class="g-btn bgColor-danger" style="float: right;" id="g-close-btn" type="button" title="Close"
+				onclick="this.parentElement.style.display='none'">
+				Close
+			</button>
+			<center>
+				<p id="livetime"><noscript>Browser doesn't support javascript. Some functionalities might not be
+						available.</noscript></p>
+			</center>
+			<hr style="background-color:white;" />
+		</div>
+		<!-- /Live Time -->
+		<!-- nav-bar -->
+		<div class="nav navbar-fixed">
+			<a href="#" tabindex="5">
+				<img class="nav-brand" src="assets/img/icon/g-user-black.png" alt="Govind logo" />
+			</a>
+			<ul class="g-nav-ul">
+				<li tabindex="1">
+					<a class="g-nav-btn" href="index.html">
+						Home
+					</a>
+				</li>
+				<li tabindex="2">
+					<a class="g-nav-btn" href="project.html">
+						Projects
+					</a>
+				</li>
+				<li tabindex="3">
+					<a class="g-nav-btn" href="contact.html">
+						Contact
+					</a>
+				</li>
+				<li tabindex="4">
+					<a class="g-nav-btn" href="about.html">
+						About
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /nav-bar -->
+
+		<!-- [ projNav ]  -->
+		<div id="projNav" class="projNav">
+			<ul style="list-style-type: lower-alpha;">
+				<li>
+					<a class="projLink" href="#develop">Development</a>
+				</li>
+				<li>
+					<a class="projLink" href="#SDevelop">Sustainable Development</a>
+				</li>
+				<li>
+					<div class="dropDown">
+						<a class="projLink" href="#">Views of SD</a>
+						<div class="dropItemMenu">
+							<a class="dropItem" href="#SDDisAdvt">Disadvantages of SD</a>
+							<a class="dropItem" href="#SDAdvt">Advantages of SD</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a class="projLink" href="#SDevelopPlrs">Pillars of SD</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- entire body -->
+		<div class="g-container" style="background-color: #eee;">
+			<button id="loadProj" class="g-btn color-light bgColor-info mt-10 mb-10" >Load my S.Sc project</button>
+			<div id="projBox" class="proj_SSc d-none">
+				<div id="develop" class="detailBox">
+					<h2>Development: </h2>
+					<ul>
+						<li>The growth of country' s economy as well as the non-economic sectors, like -
+							health, education etc.</li>
+						<li>This should be time conserving, nature friendly and money effortly for everyone.</li>
+						<li>This don' t have to for greed of anyone but, this have to be for needs of everyone.</li>
+						<li><i>For Exapmle:- Economic development, Educational institutions etc.</i></li>
+					</ul>
+				</div>
+				<div id="SDevelop" class="detailBox">
+					<h2>Sustainable Development (SD): </h2>
+					<ul>
+						<li>The development which done by the taking care of future needs without
+							compromising with the present needs.</li>
+						<li>Taking care of the environment, its resources, without renouncing social and economic progress</li>
+						<li><i>For Exapmle:- Wind Energy, Solar Energy etc.</i></li>
+					</ul>
+				</div>
+				<div id="ViewSDevelop" class="detailBox">
+					<h2>Views of Sustainable Development: </h2>
+					<ul>
+						<li>
+							<h3>Advantages and Disadvantages of Sustainable Development</h3>
+							<ul>
+								<h3 id="SDDisAdvt">Disadvantages of <span class="tooltip" title="Sustainable Development">SD</span> : </h3>
+								<ul>
+									<h5>Costs</h5>
+									<li style="list-style-type: upper-latin">Although intentions are good, carrying them out costs work because it is about reducing or completely dispensing with
+									energy that already supplies part of the population with a new one, changing infrastructure, consumption habits and this
+									whole transition can be very expensive</li>
+									<li style="list-style-type: upper-latin"><i>For Exapmle:- The countries of the first world would not have much difficulty in adopting new forms of energy, but in the developing
+									nations, it would not be possible to assume these expenses.</i></li>
+
+									<h5>Unemployment in some areas.</h5>
+									<li style="list-style-type: upper-latin">Changes to preserve and care for ecosystems and biodiversity can cause several industries to reduce their activities or,
+									in the last case, stop them altogether. This can bring unemployment for many people who have dedicated their whole lives
+									to work in a single sector, such as the coal industry.</li>
+
+									<h5>Fragile commitment.</h5>
+									<li style="list-style-type: upper-latin">A more environmentally friendly industry is more costly and difficult to meet because , there is a risk that the
+									commitment made with society is not so serious. This inconvenience would occur because the results obtained are
+									generally long-term, but in places that are just developing, it may not be possible to wait so long.</li>
+
+									<h5>More requirements.</h5>
+									<li style="list-style-type: upper-latin">The companies, plants, factories and others responsible for affecting the environment would have more requirements to
+									function, such as reducing their carbon dioxide emissions or correct treatment of their waste, and although they seem
+									necessary and common sense, not everyone could meet them without compromising their efficiency and their work, in
+									addition to the entry requirements would be very high for small companies.</li>
+
+								</ul>
+								<h3 id="SDAdvt">Advantages of <span class="tooltip" title="Sustainable Development">SD</span> :</h3>
+								<ul>
+									<li style="list-style-type: upper-latin">In an environment that tends to sustainability , governments must be responsible and citizens are more aware and ask important questions in their role as consumers.</li>
+
+									<h5>Lower environmental impact</h5>
+									<li style="list-style-type: upper-latin">it involves reducing the emissions of gases that create phenomena such as acid rain or global warming, it directly
+									<li style="list-style-type: upper-latin">a large part of human activities are responsible for the deterioration of the environment, adopting this ideology entails doing something to reduce pollution, which can bring positive results such as better air quality, more green areas, the preservation of biodiversity of the planet, the subsistence of more species, etc.</li>
+
+									<h5>Guarantee of a better future.</h5>
+									<li style="list-style-type: upper-latin">actions are taken to reduce the effect of the warming of the land or other events such as the melting of the poles or
+									changes in such an abnormal climate, guarantees that the Next generations of people can have an adequate life in the
+									future.</li>
+									<li style="list-style-type: upper-latin">ensuring that the planet’s natural resources are not exhausted and there is enough to be renewed or, if not, that they
+									last for a good number of years, as in the case of oil or gas. natural.</li>
+								</ul>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div id="SDevelopPlrs" class="detailBox">
+					<h2>Pillars of <span class="tooltip" title="Sustainable Development">SD</span> :</h2>
+					<img id="viewProjImg" class="projImg" title="This image shows the concept of three pillars of sustainability." src="assets/img/project_SSc/pillarsOfSD.jpg" alt="SD Pillars"/>
+					<ul>
+						<li>
+							<h4>The Environmental Pillar</h4>
+							<ul>
+								<li>The environmental pillar often gets the most attention. Companies are focusing on reducing their carbon footprints, packaging waste, water usage and their overall effect on the environment.</li>
+								<ul>
+									<li>Companies have found that have a beneficial impact on the planet can also have a positive financial impact by Lessening the amount of material used in packaging usually reduces the overall spending on those materials.</li>
+									<li><i>For Exapmle:- Walmart keyed in on packaging through their zero-waste initiative, pushing for less packaging through their supply chain and for more of that packaging to be sourced from recycled or reused materials.</i></li>
+								</ul>
+								<li>Other businesses that have an undeniable and obvious environmental impact, such as mining or food production, approach the environmental pillar through <a class="diffWord" href="dictionary.html#benchmarking">benchmarking</a> and reducing.</li>
+								<ul>
+									<li>The <a class="diffWord" href="dictionary.html#all-in-costs">all-in-costs</a> of wastewater, carbon dioxide, land reclamation and waste in general are not easy to calculate because companies are not always the ones on the hook for the waste they produce.</li>
+									<li>This is where benchmarking comes in to try and quantify those externalities, so that progress in reducing them can be tracked and reported in a meaningful way.</li>
+								</ul>
+							</ul>
+						</li>
+						<li>
+							<h4>The Social Pillar</h4>
+							<ul>
+								<li>The social pillar ties back into another poorly defined concept: <a class="diffWord" href="dictionary.html#social-license">social license</a>. A sustainable business should have the support and approval of its employees, stakeholders and the community it operates in.</li>
+								<li>The approaches to securing and maintaining this support are various, but it comes down to treating employees fairly and being a good neighbor and community member, both locally and globally.</li>
+								<ul>
+									<li>On the employee side, businesses refocus on retention and engagement strategies, including more responsive benefits such as better maternity and paternity benefits, flexible scheduling, and learning and development opportunities.</li>
+									<li>For community engagement, companies have come up with many ways to give back, including fundraising, sponsorship, scholarships and investment in local public projects.</li>
+								</ul>
+								<ul>
+									<li>On a global social scale, a business needs to be aware of how its supply chain is being filled.</li>
+									<li>Many of the large retailers have struggled with this as public outrage over tragedies like the Bangladesh factory collapse, which have illustrated previously unaccounted for risks in sourcing from the lowest-cost supplier.</li>
+								</ul>
+							</ul>
+						</li>
+						<li>
+							<h4>The Economic Pillar</h4>
+							<ul>
+								<li>The economic pillar of sustainability is where most businesses feel they are on firm ground.</li>
+								<li>To be sustainable, a business must be profitable.</li>
+								<li>profit cannot trump the other two pillars. In fact, profit at any cost is not at all what the economic pillar is about.</li>
+								<li>Activities that fit under the economic pillar include compliance, proper <a class="diffWord" href="dictionary.html#governance">governance</a> and <a class="diffWord" href="dictionary.html#risk-management">risk management</a>.</li>
+								<li>This pillar is also referred to as the governance pillar, referring to good corporate governance.</li>
+								<li>This means that boards of directors and management align with shareholders' interests as well as that of the company's community, value chains, and end-user customers.</li>
+								<li>With regard to governance, investors may want to know that a company uses accurate and transparent accounting methods, and that stockholders are given an opportunity to vote on important issues.</li>
+								<li>They may also want assurances that companies avoid <a class="diffWord" href="dictionary.html#conflicts-of-interest">conflicts of interest</a> in their choice of board members, don't use political contributions to obtain unduly favorable treatment and, of course, don't engage in illegal practices.</li>
+								<li>It is the inclusion of the economic pillar and profit that makes it possible for corporations to come on board with sustainability strategies.</li>
+								<li>The economic pillar provides a counterweight to extreme measures that corporations are sometimes pushed to adopt, such as abandoning fossil fuels or chemical fertilizers instantly rather than phasing in changes.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- g-modal -->
+			<div id="gModal" class="g-modal">
+
+				<!-- modal body -->
+				<div class="modal_body">
+
+					<!-- image div -->
+					<img id="imageInModal" src="" alt="modal image" title=""/>
+
+					<!-- close modal span -->
+					<span id="close-modal" class="modal_close"><i class="fa fa-times"></i></span>
+
+					<!-- modal hr -->
+						<div class="modal-hr-2 mt-15 mr-auto ml-auto"></div>
+					
+					<!-- modal footer -->
+					<div class="modal_footer">
+						<p id="modal-img-info"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /entire body -->
+
+		<!-- footer -->
+		<div>
+
+		</div>
+		<!-- /footer -->
+
+		<!-- scripts -->
+		<script type="text/javascript" src="assets/js/liveTime.js"></script>
+		<script type="text/javascript" src="assets/js/activeTab.js"></script>
+		<script type="text/javascript" src="assets/js/image.js"></script>
+		<script>
+			var loadProjBtn = document.getElementById("loadProj");
+			var projBox = document.getElementById("projBox");
+
+			loadProjBtn.addEventListener("click", loadProj);
+
+			function loadProj()
+			{
+				projBox.style.display = "block";
+
+				if(projBox.style.display === "block")
+					loadProjBtn.style.display = "none";
+			}
+		</script>
+		<script>
+			window.addEventListener("scroll", stickyNav);
+			
+			var navbar = document.getElementById("projNav");
+			var sticky = navbar.offsetTop;
+
+			function stickyNav()
+			{
+				if (window.pageYOffset >= sticky)
+				{
+					navbar.classList.add("sticky")
+				}
+				else
+				{
+					navbar.classList.remove("sticky");
+				}
+			}
+		</script>
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++)
+			{
+				coll[i].addEventListener("click", q);
+
+				function q()
+				{
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+
+					if (content.style.display === "block")
+					{
+						content.style.display = "none";
+					}
+					else
+					{
+						content.style.display = "block";
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
+
+<!--
+	https://www.lorecentral.org/2018/07/advantages-and-disadvantages-of-sustainable-development.html#Lower_environmental_impact
+	https://www.investopedia.com/articles/investing/100515/three-pillars-corporate-sustainability.asp#the-social-pillar
+-->
+
+<!--
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+=====================================
+
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++)
+{
+  coll[i].addEventListener("click", q};
+
+  function q() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block")
+      {
+        content.style.display = "none";
+      }
+      else
+      {
+        content.style.display = "block";
+      }
+    }
+}
+
+-->
